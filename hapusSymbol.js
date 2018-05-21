@@ -1,6 +1,6 @@
 function hapusSimbol(str) {
   // you can only write your code here!
-  var delSymbol = str.match(/[a-z 0-9]/g)
+  var delSymbol = str.match(/[a-z0-9]/g)
   var string = ''
   for (var a = 0; a < delSymbol.length; a++) {
     string += delSymbol[a]
